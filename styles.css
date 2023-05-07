@@ -462,13 +462,12 @@ section {
   line-height: 5rem;
   font-size: 2rem;
   color: #fff;
-  margin: .3rem;
+  margin: 0.3rem;
   border-radius: 50%;
 }
 
 .footer .share a:hover {
   background-color: var(--main-color);
-
 }
 
 .footer .links {
@@ -486,37 +485,20 @@ section {
   font-size: 2rem;
 }
 
-.footer .links 
+.footer .links a:hover {
+  background: var(--main-color);
+}
 
+.footer .credit {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: lighter;
+  padding: 1.5rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer .credit span {
+  color: var(--main-color);
+}
 
 /* media */
 @media (max-width: 991px) {
